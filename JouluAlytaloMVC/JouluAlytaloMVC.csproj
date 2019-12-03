@@ -128,6 +128,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LampoTilaController.cs" />
+    <Compile Include="Controllers\SaunanController.cs" />
+    <Compile Include="Controllers\ValotController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -210,6 +213,21 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Valot\Create.cshtml" />
+    <Content Include="Views\Valot\Delete.cshtml" />
+    <Content Include="Views\Valot\Details.cshtml" />
+    <Content Include="Views\Valot\Edit.cshtml" />
+    <Content Include="Views\Valot\Index.cshtml" />
+    <Content Include="Views\Saunan\Create.cshtml" />
+    <Content Include="Views\Saunan\Delete.cshtml" />
+    <Content Include="Views\Saunan\Details.cshtml" />
+    <Content Include="Views\Saunan\Edit.cshtml" />
+    <Content Include="Views\Saunan\Index.cshtml" />
+    <Content Include="Views\LampoTila\Create.cshtml" />
+    <Content Include="Views\LampoTila\Delete.cshtml" />
+    <Content Include="Views\LampoTila\Details.cshtml" />
+    <Content Include="Views\LampoTila\Edit.cshtml" />
+    <Content Include="Views\LampoTila\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
