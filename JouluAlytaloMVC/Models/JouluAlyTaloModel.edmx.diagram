@@ -8,6 +8,7 @@
         <EntityTypeShape EntityType="JouluAlyTaloDBModel.Lampo" Width="1.5" PointX="0.625" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="JouluAlyTaloDBModel.Sauna" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="JouluAlyTaloDBModel.Valo" Width="1.5" PointX="5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="JouluAlyTaloDBModel.Ilmastointi" Width="1.5" PointX="0.625" PointY="3" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

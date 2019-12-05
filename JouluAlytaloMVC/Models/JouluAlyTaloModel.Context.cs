@@ -28,5 +28,6 @@ namespace JouluAlytaloMVC.Models
         public virtual DbSet<Lampo> Lampo { get; set; }
         public virtual DbSet<Sauna> Sauna { get; set; }
         public virtual DbSet<Valo> Valo { get; set; }
+        public virtual DbSet<Ilmastointi> Ilmastointi { get; set; }
     }
 }

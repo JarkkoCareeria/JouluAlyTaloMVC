@@ -1,0 +1,42 @@
+﻿@model JouluAlytaloMVC.Models.Ilmastointi
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ilmastointi</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IlmastoinninTila)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IlmastoinninTila)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IlmastointiTaso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IlmastointiTaso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Huone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Huone)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IlmastointiID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

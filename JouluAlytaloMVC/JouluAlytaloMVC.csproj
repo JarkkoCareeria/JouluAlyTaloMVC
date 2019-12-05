@@ -128,12 +128,16 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IlmastointiTilaController.cs" />
     <Compile Include="Controllers\LampoTilaController.cs" />
     <Compile Include="Controllers\ResponsiveSiteController.cs" />
     <Compile Include="Controllers\SaunanController.cs" />
     <Compile Include="Controllers\ValotController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Ilmastointi.cs">
+      <DependentUpon>JouluAlyTaloModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\JouluAlyTaloModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -230,6 +234,11 @@
     <Content Include="Views\LampoTila\Edit.cshtml" />
     <Content Include="Views\LampoTila\Index.cshtml" />
     <Content Include="Views\ResponsiveSite\AlySite.cshtml" />
+    <Content Include="Views\IlmastointiTila\Create.cshtml" />
+    <Content Include="Views\IlmastointiTila\Delete.cshtml" />
+    <Content Include="Views\IlmastointiTila\Details.cshtml" />
+    <Content Include="Views\IlmastointiTila\Edit.cshtml" />
+    <Content Include="Views\IlmastointiTila\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
