@@ -170,6 +170,10 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\keilaniemi.jpg" />
+    <Content Include="Content\images\poro_ea_2.jpg" />
+    <Content Include="Content\images\sauna.jpg" />
+    <Content Include="Content\images\saunavalaistus.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -193,6 +197,7 @@
     <Content Include="Models\JouluAlyTaloModel.edmx.diagram">
       <DependentUpon>JouluAlyTaloModel.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\JouluAlytaloMVC20200103040457 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

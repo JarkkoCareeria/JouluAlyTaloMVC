@@ -1,9 +1,9 @@
 ﻿
 @{
-    ViewBag.Title = "AlySite";
+    ViewBag.Title = "Alytalo-sovellus";
 }
 
-<h2>AlySite</h2>
+@*<h2>AlySite</h2>*@
 
 <style>
     * {
@@ -66,6 +66,7 @@
         padding: 15px;
     }
 
+   
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
@@ -84,13 +85,15 @@
             <li><a href="~/Valot/Index" target="_blank">Valot</a></li>
             <li><a href="~/Saunan/Index" target="_blank">Sauna</a></li>
             <li><a href="~/LampoTila/Index" target="_blank">Lämpötila</a></li>
-            <li>Ilmastointi</li>
+            <li><a href="~/IlmastointiTila/Index" target="_blank">Ilmastointi</a></li>
         </ul>
     </div>
 
     <div class="col-6 col-s-9">
-        <h1>ÄlytaloApp</h1>
-        <p>Tämän ohjelmiston avulla säädetään Älytalon toimintoja: Valojen säätöä, kytketään sauna päälle ja säädellään talon lämpötilaa.</p>
+        <h1>Älytalosovellus</h1>
+        <p>
+            Sovelluksen avulla säädetään talon eri toimintoja.
+        </p>
     </div>
 
     <div class="col-3 col-s-12">

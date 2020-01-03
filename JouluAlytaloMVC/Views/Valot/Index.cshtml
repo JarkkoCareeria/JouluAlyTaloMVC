@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<JouluAlytaloMVC.Models.Valo>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Valon tila";
 }
 
-<h2>Index</h2>
+<h2>Valojen kirkkaus</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Uusi asetus", "Create")
 </p>
 <table class="table">
     <tr>
@@ -23,23 +23,25 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.ValonTila)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ValonMaara)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Huone)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ValoID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ValoID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ValoID })
-        </td>
-    </tr>
-}
-
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValonTila)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValonMaara)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Huone)
+            </td>
+            <td>
+                @Html.ActionLink("Muokkaa", "Edit", new { id = item.ValoID }) |
+                @Html.ActionLink("Tiedot", "Details", new { id = item.ValoID }) |
+                @Html.ActionLink("Poista", "Delete", new { id = item.ValoID })
+            </td>
+        </tr>
+    }
+    
 </table>
+<p><a href="https://localhost:44319/" class="btn btn-primary btn-lg">Takaisin pääsivulle &raquo;</a></p>

@@ -15,14 +15,14 @@ namespace JouluAlytaloMVC.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Älytalo ohjelmistot";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Yhteystiedot";
 
             return View();
         }

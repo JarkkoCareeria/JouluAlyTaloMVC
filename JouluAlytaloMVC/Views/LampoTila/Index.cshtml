@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<JouluAlytaloMVC.Models.Lampo>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Lämpötila";
 }
 
-<h2>Index</h2>
+<h2>Talon lämpötila</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Uusi asetus", "Create")
 </p>
 <table class="table">
     <tr>
@@ -29,11 +29,12 @@
             @Html.DisplayFor(modelItem => item.TalonNykyLampo)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.LampoID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.LampoID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.LampoID })
+            @Html.ActionLink("Muokkaa", "Edit", new { id=item.LampoID }) |
+            @Html.ActionLink("Tiedot", "Details", new { id=item.LampoID }) |
+            @Html.ActionLink("Poista", "Delete", new { id=item.LampoID })
         </td>
     </tr>
 }
 
 </table>
+<p><a href="https://localhost:44319/" class="btn btn-primary btn-lg">Takaisin pääsivulle &raquo;</a></p>

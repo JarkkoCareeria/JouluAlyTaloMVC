@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<JouluAlytaloMVC.Models.Ilmastointi>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Ilmastoinnin tila";
 }
 
-<h2>Index</h2>
+<h2>Ilmastoinnin asetukset</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Uusi asetus", "Create")
 </p>
 <table class="table">
     <tr>
@@ -35,11 +35,12 @@
             @Html.DisplayFor(modelItem => item.Huone)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.IlmastointiID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.IlmastointiID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.IlmastointiID })
+            @Html.ActionLink("Muokkaa", "Edit", new { id=item.IlmastointiID }) |
+            @Html.ActionLink("Tiedot", "Details", new { id=item.IlmastointiID }) |
+            @Html.ActionLink("Poista", "Delete", new { id=item.IlmastointiID })
         </td>
     </tr>
 }
 
 </table>
+<p><a href="https://localhost:44319/" class="btn btn-primary btn-lg">Takaisin pääsivulle &raquo;</a></p>
