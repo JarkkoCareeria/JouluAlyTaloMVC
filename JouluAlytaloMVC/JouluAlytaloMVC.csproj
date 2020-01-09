@@ -197,7 +197,7 @@
     <Content Include="Models\JouluAlyTaloModel.edmx.diagram">
       <DependentUpon>JouluAlyTaloModel.edmx</DependentUpon>
     </Content>
-    <None Include="Properties\PublishProfiles\JouluAlytaloMVC20200103040457 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\JouluAlytaloMVC20200107043756 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
